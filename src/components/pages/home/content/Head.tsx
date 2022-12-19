@@ -14,27 +14,29 @@ const imageStyle = {
 
 function HomePageContentHead() {
     return (
-        <section className={"px-7 overflow-hidden relative"} style={{height: "715px"}}>
-            <h1 className={"text-center text-2xl leading-8 mb-3"}>
-                Run A Profitable Print-on-Demand Business With Minimal Effort
-            </h1>
-            <p className={"text-center text-gray-500 mb-6"}>
-                PrintBase gives you the end-to-end solution to create & sell printed products online.
-            </p>
-            <form>
-                <input
-                    type="email"
-                    required={true}
-                    className={"p-4 mb-4 rounded-lg border border-gray-300 w-full bg-white focus:outline-0"}
-                    placeholder={"Enter your email"}
-                />
-                <button
-                    type={"submit"}
-                    className={"p-4 bg-blue-500 text-white w-full rounded-lg capitalize"}
-                >
-                    Start free trial
-                </button>
-            </form>
+        <section className={"px-7 overflow-hidden relative md:pt-20"} style={{ height: "715px" }}>
+            <div className="md:w-[700px] m-auto">
+                <h1 className={"text-center text-2xl leading-8 mb-3 md:text-4xl md:font-bold"}>
+                    Run A Profitable Print-on-Demand Business With Minimal Effort
+                </h1>
+                <p className={"text-center text-gray-500 mb-6"}>
+                    PrintBase gives you the end-to-end solution to create & sell printed products online.
+                </p>
+                <form>
+                    <input
+                        type="email"
+                        required={true}
+                        className={"p-4 mb-4 rounded-lg border border-gray-300 w-full bg-white focus:outline-0 md:mb-0 md:w-2/3 md:mr-3"}
+                        placeholder={"Enter your email"}
+                    />
+                    <button
+                        type={"submit"}
+                        className={"p-4 bg-blue-500 text-white w-full rounded-lg capitalize md:w-1/3"}
+                    >
+                        Start free trial
+                    </button>
+                </form>
+            </div>
             <img
                 src={Image1}
                 alt="Image1"
