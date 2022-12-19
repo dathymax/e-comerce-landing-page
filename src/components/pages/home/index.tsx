@@ -3,6 +3,7 @@ import Navigation from "../../common/layout/Nav";
 import HomePageContentHead from "./content/Head";
 import HomePageContentAbout from "./content/About";
 import HomePageContentReason from "./content/Reason";
+import HomePageContentLearnMore from "./content/LearnMore";
 
 const HomePage = () => {
     return (
@@ -12,6 +13,7 @@ const HomePage = () => {
                 <HomePageContentHead/>
                 <HomePageContentAbout/>
                 <HomePageContentReason/>
+                <HomePageContentLearnMore/>
             </div>
         </div>
     )

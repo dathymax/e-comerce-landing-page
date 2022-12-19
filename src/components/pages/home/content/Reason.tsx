@@ -7,7 +7,7 @@ import Image5 from '../../../../assets/images/content-reason-img5.png';
 
 function HomePageContentReason() {
     return (
-        <div className={"pt-20 px-7"}>
+        <section className={"pt-20 px-7"}>
             <div className={"mb-10"}>
                 <p className={"text-xl mb-2"}>
                     <strong>
@@ -77,7 +77,7 @@ function HomePageContentReason() {
                     Our 24/7 customer support gateway will answer all your buyers’ questions or requests, quickly handle any problem related to their orders, hence delights your buyers and keeps your dispute rates as low as possible.
                 </p>
             </div>
-        </div>
+        </section>
     );
 }
 
