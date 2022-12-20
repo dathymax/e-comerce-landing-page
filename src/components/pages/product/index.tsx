@@ -9,7 +9,7 @@ const ProductCatalog = () => {
     return (
         <div>
             <Navigation />
-            <div className='pt-24 px-5 bg-gray-100'>
+            <div className='py-24 px-5 bg-gray-100'>
                 <ProductContentHero />
                 <ProductContentCatalog />
             </div>
