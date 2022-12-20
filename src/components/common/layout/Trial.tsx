@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HomePageContentTrial = () => {
+const Trial = () => {
     return (
         <section className="bg-sky-300 p-6">
             <h2 className="text-2xl font-bold mb-5">
@@ -24,4 +24,4 @@ const HomePageContentTrial = () => {
     )
 }
 
-export default HomePageContentTrial
+export default Trial

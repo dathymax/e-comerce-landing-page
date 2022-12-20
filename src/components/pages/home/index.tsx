@@ -6,7 +6,7 @@ import HomePageContentReason from "./content/Reason";
 import HomePageContentUpSell from "./content/UpSell";
 import HomePageContentMarketing from './content/Marketing';
 import HomePageContentFeatures from './content/Features';
-import HomePageContentTrial from './content/Trial';
+import Trial from '../../common/layout/Trial';
 import Footer from '../../common/layout/Footer';
 
 const HomePage = () => {
@@ -20,7 +20,7 @@ const HomePage = () => {
                 <HomePageContentUpSell />
                 <HomePageContentMarketing />
                 <HomePageContentFeatures />
-                <HomePageContentTrial />
+                <Trial />
             </div>
             <Footer />
         </div>

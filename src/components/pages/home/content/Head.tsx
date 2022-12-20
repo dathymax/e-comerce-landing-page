@@ -22,7 +22,7 @@ function HomePageContentHead() {
                 <p className={"text-center text-gray-500 mb-6"}>
                     PrintBase gives you the end-to-end solution to create & sell printed products online.
                 </p>
-                <form>
+                <form className='md:flex md:items-center md:w-[550px] md:m-auto'>
                     <input
                         type="email"
                         required={true}
